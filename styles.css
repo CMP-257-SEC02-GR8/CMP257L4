@@ -1,0 +1,197 @@
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+
+.header{
+
+
+}
+
+h1{
+  background-color: rgb(191, 4, 41);
+  margin: 0;
+  padding-top: 0;
+  width: 100%;
+  text-align: center;
+
+  font-size: 32;
+}
+
+h2{
+  font-size: 24px;
+}
+
+nav{
+    background-color: rgb(191, 4, 41);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+a {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+nav p{
+  margin-left:4px;
+}
+nav a{
+  margin-left:16px;
+}
+
+:hover nav ul{
+  color: wheat;
+
+}
+
+#tagline{
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 16px;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+#Testimonials{
+  font-weight: 300;
+}
+
+#Testimonials blockquote{
+  text-align: center;
+  background-color: SlateGrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 16px;
+}
+
+#Testimonials p {
+  text-align: center;
+}
+
+#FreeHIM :hover{
+  background-color: 1;
+  background-image: url("dolphin.jpg");
+  display: flexbox;
+  background-size:10%;
+}
+
+footer{
+  background-color: rgb(191, 4, 41);
+  text-align: center;
+  padding-bottom: 0px;
+  margin: 0px;
+  bottom: 0px;
+}
+footer a{
+  margin:5px;
+}
+footer #socials :hover{
+  color:wheat;
+}
+
+#wizard{
+  text-align: center;
+}
+
+/*ITS EVENT_SUB TIME*/
+
+.form_style {
+
+ background-color;
+ padding-left: 16px;
+ border-color: rgb(191, 4, 41);
+
+
+}
+
+.form_style div {
+  background-color: slategrey;
+  
+  border-radius: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+
+#submit{
+
+  background-color: lightgreen;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 16px;
+  text-align: center;
+  padding: 12px 32px;
+  margin-right: 16px;
+}
+
+#reset{
+  background-color: lightcoral;
+  border-width: 0;
+  border-radius: 16px;
+  text-align: center;
+  padding: 12px 32px;
+  margin-left: 16px;
+}
